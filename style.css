@@ -126,6 +126,7 @@ body.dark-mode .normal-blob {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 0px clamp(20px, 10vw, 100px);
 }
 
 h1 {
@@ -219,6 +220,7 @@ span {
 
 :fullscreen .header {
     display: none;
+
 }
 
 #fullscreen-btn,
