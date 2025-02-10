@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: #f0f0f0;
 }
@@ -126,7 +126,7 @@ body.dark-mode .normal-blob {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     line-height: 1.8;
     padding: 0rem 6rem;
     margin-top: -0.5em;
@@ -149,12 +149,14 @@ body.dark-mode .normal-blob {
 }
 
 .logoPara {
-    height: 43px;
+    height: 35px;
     /* Adjust size as needed */
     vertical-align: middle;
     /* margin-left: 5px; */
     margin-top: -20px;
 }
+
+
 
 h1 {
     font-size: 1.5em;
@@ -162,31 +164,74 @@ h1 {
     /* text-align: center; */
 }
 
+.footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.header {
+    font-size: 1.3em;
+
+}
+
+
 @media (max-width: 600px) {}
 
 @media (max-width: 830px) {
     .content {
+        margin-top: 30px;
         padding: 0rem 2rem;
     }
 
     .logo {
-        height: 50px;
-
+        height: 70px;
+        margin-left: 0px;
+        margin-top: -0.1em;
+        margin-bottom: -0.1em;
     }
 
     .logo-container {
         flex-direction: column;
-        font-size: 1.2em;
+        font-size: 1.3em;
+        align-items: flex-start;
+        width: 100%;
+        font-weight: 100;
     }
 
     .header-1 {
         margin-bottom: 0px
     }
 
+    .header {
+        font-size: 1em;
+
+    }
+
     h1 {
-        font-size: 1.3em;
+        font-size: 1.4em;
         margin-bottom: .5em;
         /* text-align: center; */
+    }
+
+    .logoPara {
+        height: 30px;
+        /* Adjust size as needed */
+        vertical-align: middle;
+        /* margin-left: 5px; */
+        margin-top: -20px;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 0.9em;
+        padding: 10px 0;
+        height: 10vh;
+
     }
 }
 
