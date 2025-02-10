@@ -125,7 +125,7 @@ body.dark-mode .normal-blob {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     /* height: 100vh; */
     line-height: 1.8;
     padding: 0rem 6rem;
