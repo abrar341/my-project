@@ -126,12 +126,12 @@ body.dark-mode .normal-blob {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding: 0rem 2rem;
+    padding: 0rem 6rem;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .content {
-        padding: 0rem 6rem;
+        padding: 0rem 2rem;
     }
 }
 
