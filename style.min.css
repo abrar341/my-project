@@ -129,6 +129,7 @@ body.dark-mode .normal-blob {
     height: 100vh;
     line-height: 1.8;
     padding: 0rem 6rem;
+    margin-top: -0.5em;
 }
 
 .logo-container {
