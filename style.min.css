@@ -132,6 +132,10 @@ body.dark-mode .normal-blob {
     margin-top: -0.5em;
 }
 
+.secondary-content {
+    padding-top: 40px;
+}
+
 .logo-container {
     display: flex;
     justify-items: center;
@@ -233,6 +237,11 @@ h1 {
         height: 10vh;
 
     }
+
+    .secondary-content {
+        padding-top: 0px;
+    }
+
 }
 
 
