@@ -155,6 +155,12 @@ body.dark-mode .normal-blob {
     margin-top: -20px;
 }
 
+h1 {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    /* text-align: center; */
+}
+
 @media (max-width: 600px) {}
 
 @media (max-width: 830px) {
@@ -162,20 +168,28 @@ body.dark-mode .normal-blob {
         padding: 0rem 2rem;
     }
 
+    .logo {
+        height: 50px;
+
+    }
+
     .logo-container {
         flex-direction: column;
+        font-size: 1.2em;
     }
 
     .header-1 {
         margin-bottom: 0px
     }
+
+    h1 {
+        font-size: 1.3em;
+        margin-bottom: .5em;
+        /* text-align: center; */
+    }
 }
 
-h1 {
-    font-size: 1.5em;
-    margin-bottom: .5em;
-    /* text-align: center; */
-}
+
 
 .hamburger {
     position: fixed;
