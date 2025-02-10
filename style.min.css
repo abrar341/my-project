@@ -119,14 +119,39 @@ body.dark-mode .normal-blob {
     position: relative;
     z-index: 1;
     /* padding: 20px; */
-    color: #333;
+    color: black;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    line-height: 1.8;
     padding: 0rem 6rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+    gap: 1px;
+    font-size: 1.6em;
+}
+
+.logo {
+    height: 50px;
+    /* Adjust size as needed */
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+.logoPara {
+    height: 43px;
+    /* Adjust size as needed */
+    vertical-align: middle;
+    /* margin-left: 5px; */
+    margin-top: -20px;
 }
 
 @media (max-width: 600px) {
@@ -136,7 +161,7 @@ body.dark-mode .normal-blob {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom: .5em;
     text-align: center;
 }
