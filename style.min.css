@@ -141,6 +141,10 @@ body.dark-mode .normal-blob {
 
 }
 
+.product-link {
+    color: blue;
+}
+
 .logo-container {
     display: flex;
     justify-items: center;
